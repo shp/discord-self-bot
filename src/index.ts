@@ -1,6 +1,8 @@
 import { existsSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
 import { Client, Message } from "discord.js-selfbot-v13";
 
+process.env.FORCE_COLOR = "3"; // force ansis to work
+
 const dir = import.meta.dirname + "/";
 
 export interface Config {
