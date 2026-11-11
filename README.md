@@ -1,7 +1,8 @@
 # Discord Self Bot
 
 ## setup
-> git clone https://github.com/shp/discord-self-bot  
+> git clone https://github.com/shp/discord-self-bot
+> cd discord-self-bot  
 > npm i  
 > npm run build
 
