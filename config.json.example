@@ -1,0 +1,11 @@
+{
+    "CLIENT_TOKEN": "DISCORD TOKEN",
+    "PREFIX": "!",
+
+    "ADDRESSES": {
+        "BTC": "string",
+        "ETH": "string",
+        "LTC": "string",
+        "SOL": "string"
+    }
+}

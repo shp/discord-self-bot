@@ -3,6 +3,10 @@
         "alwaysStrict": true,
         "target": "esnext",
         "outDir": "dist",
-        "rootDir": "src"
+        "rootDir": "src",
+        "module": "nodenext",
+        "moduleResolution": "nodenext",
+        "types": ["node"],
+        "skipLibCheck": true
     }
 }
