@@ -1,5 +1,5 @@
 import { existsSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
-import { Client, RichPresence, User, Message } from "discord.js-selfbot-v13";
+import { Client, Message } from "discord.js-selfbot-v13";
 
 const dir = import.meta.dirname + "/";
 
@@ -144,11 +144,6 @@ const DEFAULT_CONFIG = {
                 callback: command.callback
             }
         }
-    }
-    
-
-    async function sleep(ms: number) {
-        await new Promise(resolve => setTimeout(resolve, ms));
     }
 
     client.on("ready", async readyClient => {
