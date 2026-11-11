@@ -1,0 +1,25 @@
+{
+  "name": "discord-self-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "npx tsx src/index.ts"
+  },
+  "keywords": [],
+  "author": "misaki",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "discord.js": "^14.28.1"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true
+  }
+}

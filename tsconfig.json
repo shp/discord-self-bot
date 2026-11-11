@@ -1,0 +1,8 @@
+{
+    "compilerOptions": {
+        "alwaysStrict": true,
+        "target": "esnext",
+        "outDir": "dist",
+        "rootDir": "src"
+    }
+}
